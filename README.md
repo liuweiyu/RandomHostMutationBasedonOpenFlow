@@ -6,7 +6,7 @@ Static configurations, especially IP addresses, give the adversaries great oppor
 The code is based on Pox 0.1.0. The steps to run are as follows.
 
 1. In a terminal on Mininet VM, copy my scripts to pox/ext:
-cp ip_mutation.py ~/pox/ext
+/n cp ip_mutation.py ~/pox/ext
 cp create_topo.py ~/pox/ext
 
 2. In /etc/resolv.conf, add the following:
