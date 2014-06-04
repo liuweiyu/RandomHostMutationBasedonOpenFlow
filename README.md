@@ -6,7 +6,7 @@ Static configurations, especially IP addresses, give the adversaries great oppor
 The code is based on Pox 0.1.0. The steps to run are as follows.
 
 1. In a terminal on Mininet VM, copy my scripts to pox/ext:
-/n cp ip_mutation.py ~/pox/ext
+cp ip_mutation.py ~/pox/ext
 cp create_topo.py ~/pox/ext
 
 2. In /etc/resolv.conf, add the following:
@@ -26,7 +26,7 @@ sudo python create_topo.py
 mininet> xterm h1 h2
 
 6. In h1 and h2's xterm terminal, ping internal host with its name:
-#ping h3
+ping h3
 
 The results of the ping operations will be showed in each external host's xterm terminal.
 
